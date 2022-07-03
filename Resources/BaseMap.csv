@@ -1,0 +1,49 @@
+Name,Colour,Connections
+San Francisco,Blue,Los Angeles;Manila;Tokyo;Chicago
+Chicago,Blue,San Francisco;Los Angeles;Mexico City;Atlanta
+Montreal,Blue,Chicago;Washington;New York
+New York,Blue,Montreal;Washington;Madrid;London
+London,Blue,New York;Madrid;Paris;Essen
+Essen,Blue,London;Paris;Milan;St. Petersburg
+St. Petersburg,Blue,Essen;Istanbul;Moscow
+Atlanta,Blue,Chicago;Washington;Minmi
+Washington,Blue,Atlanta;Montreal;New York;Minmi
+Madrid,Blue,New York;Sao Paulo;Algiers;Paris;London
+Paris,Blue,Madrid;London;Essen;Milan;Algiers
+Milan,Blue,Paris;Essen;Istanbul
+Los Angeles,Yellow,Sydney;San Francisco;Chicago;Mexico City
+Mexico City,Yellow,Los Angeles;Chicago;Minmi;Bogota;Lima
+Minmi,Yellow,Mexico City;Atlanta;Washington;Bogota
+Bogota,Yellow,Mexico City;Minmi;Sao Paulo;Buenos Aires;Lima
+Lima,Yellow,Mexico City;Bogota;Santiago
+Santiago,Yellow,Lima
+Buenos Aires,Yellow,Bogota;Sao Paulo
+Sao Paulo,Yellow,Bogota;Madrid;Lagos;Buenos Aires
+Lagos,Yellow,Sao Paulo;Khartoum;Kinshasa
+Khartoum,Yellow,Lagos;Cairo;Johannesburg;Kinshasa
+Kinshasa,Yellow,Lagos;Khartoum;Johannesburg
+Johannesburg,Yellow,Kinshasa;Khartoum
+Algiers,Black,Madrid;Paris;Istanbul;Cairo
+Istanbul,Black,Algiers;Milan;St. Petersburg;Moscow;Baghdad;Cairo
+Moscow,Black,St. Petersburg;Tehran;Istanbul
+Cairo,Black,Algiers;Istanbul;Baghdad;Riyadh;Khartoum
+Baghdad,Black,Cairo;Istanbul;Tehran;Karachi;Riyadh
+Tehran,Black,Moscow;Delhi;Karachi;Baghdad
+Riyadh,Black,Cairo;Baghdad;Karachi
+Karachi,Black,Riyadh;Baghdad;Tehran;Delhi;Mumbai
+Delhi,Black,Tehran;Kolkata;Chennai;Mumbai;Karachi
+Mumbai,Black,Karachi;Delhi;Chennai
+Kolkata,Black,Delhi;Hong Kong;Bangkok;Chennai
+Chennai,Black,Mumbai;Delhi;Kolkata;Bangkok;Jakarta
+Beijing,Red,Seoul;Shanghai
+Seoul,Red,Beijing;Tokyo;Shanghai
+Shanghai,Red,Beijing;Seoul;Tokyo;Taipei;Hong Kong
+Tokyo,Red,Shanghai;Seoul;San Francisco;Osaka
+Bangkok,Red,Chennai;Kolkata;Hong Kong;Ho Chi Minh City;Jakarta
+Hong Kong,Red,Shanghai;Taipei;Manila;Ho Chi Minh City;Bangkok;Kolkata
+Taipei,Red,Shanghai;Osaka;Manila;Hong Kong
+Osaka,Red,Taipei;Tokyo
+Jakarta,Red,Chennai;Bangkok;Ho Chi Ming City;Sydney
+Ho Chi Minh City,Red,Jakarta;Bangkok;Hong Kong;Manila
+Manila,Red,Ho Chi Minh City;Hong Kong;Taipei;San Francisco;Sydney
+Sydney,Red,Jakarta;Manila;Los Angeles
